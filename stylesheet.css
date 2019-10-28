@@ -1,16 +1,16 @@
 body {
-        font-family: 'Bitter', serif;
-        font-size: 500%;
-        background-color: #B3DFDE;
-        color: black;
-        text-align: center;
-        margin-top: 2em;
+  font-family: 'Bitter', serif;
+  font-size: 500%;
+  background-color: #77ba99;
+  color: black;
+  text-align: center;
+  margin-top: 2em;
 }
 img {
-margin-right: 0.5em;
-margin-bottom: 0.2em;
-width: 4em;
-height: 4em;
+  margin-right: 0.5em;
+  margin-bottom: 0.2em;
+  width: 4em;
+  height: 4em;
 }
 a {
   text-decoration: none;
@@ -19,12 +19,12 @@ a {
   font-size: 0.7em;
 }
 hr {
-width: 9em;
-height: 0.1em;
-margin-left: auto;
-margin-right: auto;
-background-color: black;
-border: 0 none;
-margin-top: 0.1em;
-margin-bottom: 0.1em;
+  width: 9em;
+  height: 0.1em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  border: 0 none;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
 }
