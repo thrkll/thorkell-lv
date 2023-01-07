@@ -64,11 +64,11 @@ body {
   background-color: #EDE3E9;
   font-family: 'Raleway', sans-serif;
   display: grid;
+  place-content: center;
 }
 
 body.fp {
   height: 90vh;
-  place-content: center;
   text-align: center;
 }
 
@@ -121,6 +121,7 @@ p {
   text-decoration: none;
   color: #111827;
   font-size: 1em;
+  text-align: center;
   }
 
 .fplinks {
