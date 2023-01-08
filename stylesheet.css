@@ -1,6 +1,6 @@
 .stroke {
-  -webkit-text-stroke-width: 2px;
-  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1px;
+  -moz-text-stroke-width: 1px;
   -webkit-text-stroke-color: #111827;
   -moz-text-stroke-color: #111827;
   color: transparent;
@@ -13,7 +13,8 @@
 .upper:after {
   content: "Þorkell";
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAHElEQVQYV2NUVFT8f//+fUYGBgYGMAEDcA5IBQCKJQVmn76DhAAAAABJRU5ErkJggg==") repeat;
-  font-size: 15vw;
+  background-color: #9F84BD;
+  font-size: 17vw;
   letter-spacing: 3px;
   left: calc(50% + 2px);
   position: absolute;
@@ -27,10 +28,6 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-}
-
-.upper-color:after {
-  background-color: #9F84BD;
 }
 
 .lower {
@@ -40,7 +37,8 @@
 .lower:after {
   content: "Einarsson";
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAHElEQVQYV2NUVFT8f//+fUYGBgYGMAEDcA5IBQCKJQVmn76DhAAAAABJRU5ErkJggg==") repeat;
-  font-size: 15vw;
+  background-color: #9F84BD;
+  font-size: 17vw;
   letter-spacing: 3px;
   left: calc(50% + 2px);
   position: absolute;
@@ -56,15 +54,12 @@
   -moz-text-fill-color: transparent;
 }
 
-.lower-color:after {
-  background-color: #9F84BD;
-}
-
 body {
   background-color: #EDE3E9;
   font-family: 'Raleway', sans-serif;
   place-content: center;
   margin-top: 30vw;
+  font-size: 5vw;
 }
 
 body.fp {
@@ -73,7 +68,7 @@ body.fp {
 }
 
 body h1 {
-  font-size: 15vw;
+  font-size: 17vw;
   font-weight: bold;
   letter-spacing: 3px;
   margin: 0;
@@ -106,10 +101,8 @@ p {
   text-align: center;
   }
 
-
-
 .fplinks {
-    margin-top: 10vw;
+  margin-top: 10vw;
   }
 
 .morestuff {
@@ -117,16 +110,22 @@ p {
 }
 
 .contact {
-  margin-left: 4vw;
-  font-size: 4vw;
+  /* margin-left: 4vw;
+  margin-top: 2vw; */
+  margin: 2vw;
+  display:inline-block;
 }
 
 
 @media screen and (min-width: 768px) {
 
-  img {
-    width: 10vw;
-    margin-top: 2vw;
+  .mobile-break { 
+    display: none; 
+  }
+
+  .stroke {
+    -webkit-text-stroke-width: 2px;
+    -moz-text-stroke-width: 2px;
   }
 
   .upper:after {
@@ -143,6 +142,7 @@ p {
 
   body {
     margin-top: 4vw;
+    font-size: 1vw;
   }
 
   body h1 {
@@ -155,11 +155,14 @@ p {
 
   .morestuff {
     margin-top: 3vw;
-    font-size: 1vw;
-}
+  }
 
   .contact {
-    margin-left: 1vw;
-    font-size: 1vw;
+    margin: 0.5vw;
+  }
+
+  img {
+    width: 10vw;
+    margin-top: 2vw;
   }
 }
